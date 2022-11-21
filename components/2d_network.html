@@ -1337,7 +1337,7 @@ Note that this may cause slow performance on larger networks.">
               size = d[sizeVariable];
               if (!isNumber(size)) size = med;
               size = scale(size);
-              d3.select(this).attr('d', d3.symbol().size(size).type(type))
+              d3.select(this).attr('d', d3.symbol().size(size).type(type));
             } else {
               size = d[sizeVariable];
               if (!isNumber(size)) size = med;
@@ -1417,32 +1417,6 @@ Note that this may cause slow performance on larger networks.">
 
             }
 
-              
-
-            
-              // let shape = d3.select(this).attr('d', d3.symbol().size(size).type(type));
-
-              // let box = d3.select(this).node().getBBox();
-              // d3.select(this).attr('width', '50').attr('height', '50');
-
-              // console.log('d isss: ', svg.select('g.nodes').selectAll('g')[0]);
-
-              // d3.select('g').append('image')
-              // .attr("xlink:href", "/img/svg/Belonging-Civic-Muscle.svg")
-              // .attr("transform", "translate(-80, -75)");
-
-
-              // console.log('this2: ', d3.select(this).select('g'));
-
-
-              // console.log('d node: ', d.node());
-
-              // d3.select(this).attr('height', box.height);
-
-              // d3.select(this).attr('d', null);
-              // console.log('item d: ', shape);
-              // console.log('bounding: ', d3.select(this).node().getBBox());
-              // console.log('width: ', shape.attr('width'));
             }
 
             counter = counter + 1;
