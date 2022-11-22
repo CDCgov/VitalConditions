@@ -535,6 +535,17 @@ button.btn,
   top: 63px;
 }
 
+.modal-header-landing-page {
+  border-bottom: none !important;
+  text-align: center;
+  display: block;
+}
+
+.modal-body-landing {
+  padding: 0 15px !important;
+  border-top: 0;
+}
+
 .modal-header {
   flex-direction: column;
 }
@@ -563,6 +574,21 @@ button.btn,
 
 #session-recall-view-modal {
   top: 100px;
+}
+
+.modal-footer-landing-page {
+  border-top: 0px;
+  text-align: center;
+  justify-content: center;
+}
+
+.link-blue {
+  color: #007bff !important;
+}
+
+.launch-btn {
+  width: 243px;
+  background-color: #005DAA;
 }
 
 #global-timeline-wrapper {
