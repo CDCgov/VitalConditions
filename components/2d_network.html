@@ -568,9 +568,11 @@ Note that this may cause slow performance on larger networks.">
 
 <script>
   (() => {
-    ga('set', 'page', '/2d_network');
-    ga('set', 'title', '2D View');
-    ga('send', 'pageview');
+    /*ga('set', 'page', '/2d_network');
+     *ga('set', 'title', '2D View');
+     *ga('send', 'pageview');
+     */
+    gtag('event', 'pageview', {'page': '/2d_network', 'title': '2D View'})
 
     // Before anything else gets done, ask the user to accept the legal agreement
   localforage.getItem("licenseAccepted").then(accepted => {
